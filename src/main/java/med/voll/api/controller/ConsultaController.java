@@ -31,5 +31,4 @@ public class ConsultaController {
         agenda.cancelar(dados);
         return ResponseEntity.noContent().build();
     }
-
 }
