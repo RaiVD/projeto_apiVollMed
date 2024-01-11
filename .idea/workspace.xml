@@ -4,20 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65724b33-ceda-4034-b03e-c07150e9cadb" name="Changes" comment="Desenvolvendo funcionalidades do projeto">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/med/voll/api/controller/ConsultaControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/med/voll/api/controller/MedicoControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/med/voll/api/medico/MedicoRepositoryTest.java" afterDir="false" />
+    <list default="true" id="65724b33-ceda-4034-b03e-c07150e9cadb" name="Changes" comment="Desenvolvendo testes de integração do projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/med/voll/api/controller/ConsultaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/med/voll/api/controller/ConsultaControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -51,7 +52,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/raissa.carvalho/Desktop/projeto_apiVollMed/src/main/resources",
+    "last_opened_file_path": "C:/Users/raissa.carvalho/Desktop/vistoriapreviaapps",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704977773435</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Desenvolvendo testes de integração do projeto">
+      <created>1704980996095</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704980996095</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando projeto" />
     <MESSAGE value="Desenvolvendo funcionalidades do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvendo funcionalidades do projeto" />
+    <MESSAGE value="Desenvolvendo testes de integração do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvendo testes de integração do projeto" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/projeto$All_in_api.ic" NAME="All in api Coverage Results" MODIFIED="1704979095949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

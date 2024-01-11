@@ -61,8 +61,7 @@ class ConsultaControllerTest {
         var dadosDetalhamento = new DadosDetalhamentoConsulta(null, 2l, 5l, data);
         when(agendaDeConsultas.agendar(any())).thenReturn(dadosDetalhamento);
 
-        var response = mvc
-                .perform(
+        var response = mvc.perform(
                         post("/consultas")
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content(dadosAgendamentoConsultaJson.write(
